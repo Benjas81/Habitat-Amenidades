@@ -433,7 +433,9 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fov="120" tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Lobby" comment="" copyright="" author="" source="" customnodeid="" description="" tags="Amenidades|Exterior" latitude="" nodeid="node14" datetime="23/01/2024 06:40 p.m." longitude="" info=""/>
+    <userdata title="Lobby" comment="" copyright="" author="" source="" customnodeid="" description="" tags="Amenidades|Exterior" latitude="" nodeid="node14" datetime="23/01/2024 06:40 p.m." longitude="" info="">
+      <mapcoords y="-0.574036" x="1.41174" mapid="FloorPlan01" x_floorplan_percent="85.6667" y_floorplan_percent="34.8333"/>
+    </userdata>
     <hotspots width="180" height="20" wordwrap="1">
       <label border="1" background="1" bordercolor="0x000000" width="180" borderalpha="1" height="20" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" wordwrap="1" borderradius="1" textalpha="1"/>
       <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" handcursor="1"/>

@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: HABITAT.ggsk
-// Generated 2024-01-23T20:09:41
+// Generated 2024-01-23T21:25:34
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
