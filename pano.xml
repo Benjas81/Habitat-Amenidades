@@ -1,455 +1,455 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" apprev="17873" appversion="6.1.2">
+<tour apprev="17873" start="node1" appversion="6.1.2">
   <panorama id="node1">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="14">
       <start fov="70" projection="4" tilt="0" pan="0"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="PetPark" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node1" comment="" latitude="">
-      <mapcoords x="0.162048" y="-0.862427" x_floorplan_percent="9.83333" y_floorplan_percent="52.3333" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node1" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="PetPark" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="92.8994" x="0.162048" mapid="FloorPlan01" x_floorplan_percent="9.83333" y="-0.862427"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Juegos Niños" target="" skinid="ht_node" tilt="-16.02" id="Juegos Niños" url="{node2}" description="" pan="-358.25"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-4.8" id="Point01FirePit" url="{node3}" description="" pan="-355.64"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-0.97" id="Camastros" url="{node5}" description="" pan="-13.91"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="0.57" id="Alberca" url="{node11}" description="" pan="-25.77"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="0.76" id="BBQ" url="{node6}" description="" pan="-58.01"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node2}" skinid="ht_node" tilt="-16.57" target="" id="Juegos Niños" description="" pan="-718.61" title="Juegos Niños"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-4.8" target="" id="Point01FirePit" description="" pan="-355.64" title="Fire Pit"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-0.97" target="" id="Camastros" description="" pan="-13.91" title="Camastros"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="0.57" target="" id="Alberca" description="" pan="-25.77" title="Alberca"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="0.76" target="" id="BBQ" description="" pan="-58.01" title="BBQ"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="0"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Juegos Niños" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node2" comment="" latitude="">
-      <mapcoords x="0.148315" y="-0.620728" x_floorplan_percent="9" y_floorplan_percent="37.6667" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node2" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Juegos Niños" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="66.8639" x="0.148315" mapid="FloorPlan01" x_floorplan_percent="9" y="-0.620728"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-16.2" id="Firepit" url="{node3}" description="" pan="-358.54"/>
-      <hotspot title="PetPark" target="" skinid="ht_node" tilt="-13.76" id="petpark" url="{node1}" description="" pan="-182.16"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-0.22" id="BBQ" url="{node6}" description="" pan="-125.87"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="-0.39" id="Alberca" url="{node11}" description="" pan="-50.32"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-5.04" id="Camastros" url="{node5}" description="" pan="-37.05"/>
-      <hotspot title="Asoleaderos" target="" skinid="ht_node" tilt="-0.94" id="Asoleadoros" url="{node4}" description="" pan="-4.4"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-3.12" id="Pasillo" url="{node12}" description="" pan="-87.3"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-16.2" target="" id="Firepit" description="" pan="-358.54" title="Fire Pit"/>
+      <hotspot url="{node1}" skinid="ht_node" tilt="-13.76" target="" id="petpark" description="" pan="-182.16" title="PetPark"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-0.22" target="" id="BBQ" description="" pan="-125.87" title="BBQ"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="-0.39" target="" id="Alberca" description="" pan="-50.32" title="Alberca"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-5.04" target="" id="Camastros" description="" pan="-37.05" title="Camastros"/>
+      <hotspot url="{node4}" skinid="ht_node" tilt="-0.94" target="" id="Asoleadoros" description="" pan="-4.4" title="Asoleaderos"/>
+      <hotspot url="{node12}" skinid="ht_node" tilt="-3.12" target="" id="Pasillo" description="" pan="-87.3" title="Pasillo Amenidades"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="0"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Fire Pit" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node3" comment="" latitude="">
-      <mapcoords x="0.140076" y="-0.428467" x_floorplan_percent="8.5" y_floorplan_percent="26" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node3" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Fire Pit" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="46.1538" x="0.140076" mapid="FloorPlan01" x_floorplan_percent="8.5" y="-0.428467"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Asoleaderos" target="" skinid="ht_node" tilt="-1.68" id="Asoleaderos" url="{node4}" description="" pan="-12.88"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="-0.46" id="Alberca" url="{node11}" description="" pan="-60.67"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-5.02" id="Camastros" url="{node5}" description="" pan="-45.49"/>
-      <hotspot title="" target="" skinid="ht_node" tilt="-3.73" id="BBQ" url="{node6}" description="" pan="-110.03"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-6.33" id="pasillo" url="{node12}" description="" pan="-90.92"/>
-      <hotspot title="PetPark" target="" skinid="ht_node" tilt="-8.2" id="PetPark" url="{node1}" description="" pan="-167.5"/>
-      <hotspot title="Juegos Niños" target="" skinid="ht_node" tilt="-19.25" id="Juegos" url="{node2}" description="" pan="-157.35"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node4}" skinid="ht_node" tilt="-1.68" target="" id="Asoleaderos" description="" pan="-12.88" title="Asoleaderos"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="-0.46" target="" id="Alberca" description="" pan="-60.67" title="Alberca"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-5.02" target="" id="Camastros" description="" pan="-45.49" title="Camastros"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-3.73" target="" id="BBQ" description="" pan="-110.03" title=""/>
+      <hotspot url="{node12}" skinid="ht_node" tilt="-6.33" target="" id="pasillo" description="" pan="-90.92" title="Pasillo Amenidades"/>
+      <hotspot url="{node1}" skinid="ht_node" tilt="-8.2" target="" id="PetPark" description="" pan="-167.5" title="PetPark"/>
+      <hotspot url="{node2}" skinid="ht_node" tilt="-19.25" target="" id="Juegos" description="" pan="-157.35" title="Juegos Niños"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="0"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Asoleaderos" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node4" comment="" latitude="">
-      <mapcoords x="0.22522" y="-0.20874" x_floorplan_percent="13.6667" y_floorplan_percent="12.6667" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node4" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Asoleaderos" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="22.4852" x="0.22522" mapid="FloorPlan01" x_floorplan_percent="13.6667" y="-0.20874"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-3.24" id="BBQ" url="{node6}" description="" pan="-148.25"/>
-      <hotspot title="Juegos Niños" target="" skinid="ht_node" tilt="-4.19" id="Juegos" url="{node2}" description="" pan="-183.68"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-5.53" id="FirePit" url="{node3}" description="" pan="-202.4"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-15.7" id="Camastro" url="{node5}" description="" pan="-104.12"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="-2" id="Alberca" url="{node11}" description="" pan="-95.1"/>
-      <hotspot title="WiFi" target="" skinid="ht_node" tilt="-0.07" id="WiFi" url="{node7}" description="" pan="-121.39"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-3.24" target="" id="BBQ" description="" pan="-148.25" title="BBQ"/>
+      <hotspot url="{node2}" skinid="ht_node" tilt="-4.19" target="" id="Juegos" description="" pan="-183.68" title="Juegos Niños"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-5.53" target="" id="FirePit" description="" pan="-202.4" title="Fire Pit"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-15.7" target="" id="Camastro" description="" pan="-104.12" title="Camastros"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="-2" target="" id="Alberca" description="" pan="-95.1" title="Alberca"/>
+      <hotspot url="{node7}" skinid="ht_node" tilt="-0.07" target="" id="WiFi" description="" pan="-121.39" title="WiFi"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="-55"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Camastros" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node5" comment="" latitude="">
-      <mapcoords x="0.420227" y="-0.255432" x_floorplan_percent="25.5" y_floorplan_percent="15.5" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node5" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Camastros" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="27.5148" x="0.420227" mapid="FloorPlan01" x_floorplan_percent="25.5" y="-0.255432"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="-6.04" id="Alberca" url="{node11}" description="" pan="-75.43"/>
-      <hotspot title="Asoleaderos" target="" skinid="ht_node" tilt="-5.26" id="Asoleaderos" url="{node4}" description="" pan="-280.73"/>
-      <hotspot title="Juegos Niños" target="" skinid="ht_node" tilt="-5.76" id="Juegos" url="{node2}" description="" pan="-212.01"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-4.81" id="FirePit" url="{node3}" description="" pan="-248.4"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-5.21" id="BBQ" url="{node6}" description="" pan="-168.63"/>
-      <hotspot title="WiFi" target="" skinid="ht_node" tilt="-0.78" id="WiFi" url="{node7}" description="" pan="-131.42"/>
-      <hotspot title="Terraza Bar" target="" skinid="ht_node" tilt="0.77" id="Terraza" url="{node9}" description="" pan="-89.89"/>
-      <hotspot title="Gym" target="" skinid="ht_node" tilt="-0.27" id="Gym" url="{node8}" description="" pan="-112.8"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="-6.04" target="" id="Alberca" description="" pan="-75.43" title="Alberca"/>
+      <hotspot url="{node4}" skinid="ht_node" tilt="-5.26" target="" id="Asoleaderos" description="" pan="-280.73" title="Asoleaderos"/>
+      <hotspot url="{node2}" skinid="ht_node" tilt="-5.76" target="" id="Juegos" description="" pan="-212.01" title="Juegos Niños"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-4.81" target="" id="FirePit" description="" pan="-248.4" title="Fire Pit"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-5.21" target="" id="BBQ" description="" pan="-168.63" title="BBQ"/>
+      <hotspot url="{node7}" skinid="ht_node" tilt="-0.78" target="" id="WiFi" description="" pan="-131.42" title="WiFi"/>
+      <hotspot url="{node9}" skinid="ht_node" tilt="0.77" target="" id="Terraza" description="" pan="-89.89" title="Terraza Bar"/>
+      <hotspot url="{node8}" skinid="ht_node" tilt="-0.27" target="" id="Gym" description="" pan="-112.8" title="Gym"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="46"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="BBQ" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node6" comment="" latitude="">
-      <mapcoords x="0.486145" y="-0.703125" x_floorplan_percent="29.5" y_floorplan_percent="42.6667" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node6" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="BBQ" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="75.7396" x="0.486145" mapid="FloorPlan01" x_floorplan_percent="29.5" y="-0.703125"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-4.07" id="Camastros" url="{node5}" description="" pan="-342.38"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="1.87" id="Alberca" url="{node11}" description="" pan="-12.01"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-2.15" id="FirePit" url="{node3}" description="" pan="-307.65"/>
-      <hotspot title="Asoleaderos" target="" skinid="ht_node" tilt="0.54" id="Asoleadero" url="{node4}" description="" pan="-324.26"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-6.35" id="Pasillo" url="{node12}" description="" pan="-43.2"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-4.07" target="" id="Camastros" description="" pan="-342.38" title="Camastros"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="1.87" target="" id="Alberca" description="" pan="-12.01" title="Alberca"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-2.15" target="" id="FirePit" description="" pan="-307.65" title="Fire Pit"/>
+      <hotspot url="{node4}" skinid="ht_node" tilt="0.54" target="" id="Asoleadero" description="" pan="-324.26" title="Asoleaderos"/>
+      <hotspot url="{node12}" skinid="ht_node" tilt="-6.35" target="" id="Pasillo" description="" pan="-43.2" title="Pasillo Amenidades"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="91"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="WiFi" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node7" comment="" latitude="">
-      <mapcoords x="0.823975" y="-0.700378" x_floorplan_percent="50" y_floorplan_percent="42.5" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node7" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="WiFi" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="75.4438" x="0.823975" mapid="FloorPlan01" x_floorplan_percent="50" y="-0.700378"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="0.07" id="Alberca" url="{node11}" description="" pan="-318.15"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-3.18" id="Pasillo" url="{node12}" description="" pan="-304.19"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-6.16" id="pasillo" url="{node13}" description="" pan="-35.56"/>
-      <hotspot title="Terraza Bar" target="" skinid="ht_node" tilt="2.9" id="Terraza" url="{node9}" description="" pan="-31.76"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="0.07" target="" id="Alberca" description="" pan="-318.15" title="Alberca"/>
+      <hotspot url="{node12}" skinid="ht_node" tilt="-3.18" target="" id="Pasillo" description="" pan="-304.19" title="Pasillo Amenidades"/>
+      <hotspot url="{node13}" skinid="ht_node" tilt="-6.16" target="" id="pasillo" description="" pan="-35.56" title="Pasillo Amenidades"/>
+      <hotspot url="{node9}" skinid="ht_node" tilt="2.9" target="" id="Terraza" description="" pan="-31.76" title="Terraza Bar"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="47"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Gym" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node8" comment="" latitude="">
-      <mapcoords x="1.13983" y="-0.694885" x_floorplan_percent="69.1667" y_floorplan_percent="42.1667" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node8" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Gym" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="74.8521" x="1.13983" mapid="FloorPlan01" x_floorplan_percent="69.1667" y="-0.694885"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Terraza Bar" target="" skinid="ht_node" tilt="-2.18" id="Terraza" url="{node9}" description="" pan="-10.64"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-4.56" id="pasillo" url="{node13}" description="" pan="-310.68"/>
-      <hotspot title="Bar" target="" skinid="ht_node" tilt="-0.03" id="Bar" url="{node10}" description="" pan="-22.33"/>
-      <hotspot title="Lobby" target="" skinid="ht_node" tilt="-2.85" id="Lobby" url="{node14}" description="" pan="-68.38"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node9}" skinid="ht_node" tilt="-2.18" target="" id="Terraza" description="" pan="-10.64" title="Terraza Bar"/>
+      <hotspot url="{node13}" skinid="ht_node" tilt="-4.56" target="" id="pasillo" description="" pan="-310.68" title="Pasillo Amenidades"/>
+      <hotspot url="{node10}" skinid="ht_node" tilt="-0.03" target="" id="Bar" description="" pan="-22.33" title="Bar"/>
+      <hotspot url="{node14}" skinid="ht_node" tilt="-2.85" target="" id="Lobby" description="" pan="-68.38" title="Lobby"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node9">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="-34"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Terraza Bar" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node9" comment="" latitude="">
-      <mapcoords x="1.23596" y="-0.238953" x_floorplan_percent="75" y_floorplan_percent="14.5" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node9" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Terraza Bar" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="25.7396" x="1.23596" mapid="FloorPlan01" x_floorplan_percent="75" y="-0.238953"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Bar" target="" skinid="ht_node" tilt="-9.75" id="Bar" url="{node10}" description="" pan="-68.35"/>
-      <hotspot title="Gym" target="" skinid="ht_node" tilt="-4" id="Gym" url="{node8}" description="" pan="-190.27"/>
-      <hotspot title="WiFi" target="" skinid="ht_node" tilt="-1.13" id="Wifi" url="{node7}" description="" pan="-232.28"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="-0.32" id="Alberca" url="{node11}" description="" pan="-277.93"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-0.17" id="BBQ" url="{node6}" description="" pan="-243.1"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node10}" skinid="ht_node" tilt="-9.75" target="" id="Bar" description="" pan="-68.35" title="Bar"/>
+      <hotspot url="{node8}" skinid="ht_node" tilt="-4" target="" id="Gym" description="" pan="-190.27" title="Gym"/>
+      <hotspot url="{node7}" skinid="ht_node" tilt="-1.13" target="" id="Wifi" description="" pan="-232.28" title="WiFi"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="-0.32" target="" id="Alberca" description="" pan="-277.93" title="Alberca"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-0.17" target="" id="BBQ" description="" pan="-243.1" title="BBQ"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node10">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="-91"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Bar" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node10" comment="" latitude="">
-      <mapcoords x="1.43097" y="-0.181274" x_floorplan_percent="86.8333" y_floorplan_percent="11" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node10" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Bar" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="19.5266" x="1.43097" mapid="FloorPlan01" x_floorplan_percent="86.8333" y="-0.181274"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Terraza Bar" target="" skinid="ht_node" tilt="-9.16" id="Terraza" url="{node9}" description="" pan="-261.8"/>
-      <hotspot title="Gym" target="" skinid="ht_node" tilt="-2.69" id="Gym" url="{node8}" description="" pan="-211.85"/>
-      <hotspot title="WiFi" target="" skinid="ht_node" tilt="-0.69" id="Wif" url="{node7}" description="" pan="-233.87"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="0.11" id="Alberca" url="{node11}" description="" pan="-269.79"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-0.05" id="BBQ" url="{node6}" description="" pan="-247.04"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node9}" skinid="ht_node" tilt="-9.16" target="" id="Terraza" description="" pan="-261.8" title="Terraza Bar"/>
+      <hotspot url="{node8}" skinid="ht_node" tilt="-2.69" target="" id="Gym" description="" pan="-211.85" title="Gym"/>
+      <hotspot url="{node7}" skinid="ht_node" tilt="-0.69" target="" id="Wif" description="" pan="-233.87" title="WiFi"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="0.11" target="" id="Alberca" description="" pan="-269.79" title="Alberca"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-0.05" target="" id="BBQ" description="" pan="-247.04" title="BBQ"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node11">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="-68"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Alberca" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node11" comment="" latitude="">
-      <mapcoords x="0.582275" y="-0.230713" x_floorplan_percent="35.3333" y_floorplan_percent="14" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node11" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Alberca" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="24.8521" x="0.582275" mapid="FloorPlan01" x_floorplan_percent="35.3333" y="-0.230713"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-25.81" id="Casmastros" url="{node5}" description="" pan="-272.83"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-9.65" id="Asoleaderos" url="{node5}" description="" pan="-277.93"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-8.21" id="Firepit" url="{node3}" description="" pan="-251.96"/>
-      <hotspot title="Juegos Niños" target="" skinid="ht_node" tilt="-10.84" id="Juegos" url="{node2}" description="" pan="-232.91"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-5.24" id="BBQ" url="{node6}" description="" pan="-192.81"/>
-      <hotspot title="WiFi" target="" skinid="ht_node" tilt="-8.31" id="Wifi" url="{node7}" description="" pan="-146.46"/>
-      <hotspot title="Gym" target="" skinid="ht_node" tilt="-5.74" id="GYM" url="{node8}" description="" pan="-119.41"/>
-      <hotspot title="Terraza Bar" target="" skinid="ht_node" tilt="-2.39" id="Terraza" url="{node9}" description="" pan="-83.28"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-25.81" target="" id="Casmastros" description="" pan="-272.83" title="Camastros"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-9.65" target="" id="Asoleaderos" description="" pan="-277.93" title="Camastros"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-8.21" target="" id="Firepit" description="" pan="-251.96" title="Fire Pit"/>
+      <hotspot url="{node2}" skinid="ht_node" tilt="-10.84" target="" id="Juegos" description="" pan="-232.91" title="Juegos Niños"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-5.24" target="" id="BBQ" description="" pan="-192.81" title="BBQ"/>
+      <hotspot url="{node7}" skinid="ht_node" tilt="-8.31" target="" id="Wifi" description="" pan="-146.46" title="WiFi"/>
+      <hotspot url="{node8}" skinid="ht_node" tilt="-5.74" target="" id="GYM" description="" pan="-119.41" title="Gym"/>
+      <hotspot url="{node9}" skinid="ht_node" tilt="-2.39" target="" id="Terraza" description="" pan="-83.28" title="Terraza Bar"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node12">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="-79"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Pasillo Amenidades" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node12" comment="" latitude="">
-      <mapcoords x="0.65918" y="-0.53833" x_floorplan_percent="40" y_floorplan_percent="32.6667" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node12" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Pasillo Amenidades" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="57.9882" x="0.65918" mapid="FloorPlan01" x_floorplan_percent="40" y="-0.53833"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-7.22" id="BBQ" url="{node6}" description="" pan="-210.2"/>
-      <hotspot title="WiFi" target="" skinid="ht_node" tilt="-8.03" id="Wifi" url="{node7}" description="" pan="-124.64"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="-1.29" id="Alberca" url="{node11}" description="" pan="-340.38"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-2.44" id="FirePit" url="{node3}" description="" pan="-277.04"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-5.7" id="Pasillo" url="{node13}" description="" pan="-84.65"/>
-      <hotspot title="Terraza Bar" target="" skinid="ht_node" tilt="1.39" id="Terraza" url="{node9}" description="" pan="-58.97"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="-0.84" id="Camastros" url="{node5}" description="" pan="-295.68"/>
-      <hotspot title="Gym" target="" skinid="ht_node" tilt="-1.97" id="Gym" url="{node8}" description="" pan="-92.97"/>
-      <hotspot title="Juegos Niños" target="" skinid="ht_node" tilt="-4.17" id="Juegos" url="{node2}" description="" pan="-258.92"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-7.22" target="" id="BBQ" description="" pan="-210.2" title="BBQ"/>
+      <hotspot url="{node7}" skinid="ht_node" tilt="-8.03" target="" id="Wifi" description="" pan="-124.64" title="WiFi"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="-1.29" target="" id="Alberca" description="" pan="-340.38" title="Alberca"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-2.44" target="" id="FirePit" description="" pan="-277.04" title="Fire Pit"/>
+      <hotspot url="{node13}" skinid="ht_node" tilt="-5.7" target="" id="Pasillo" description="" pan="-84.65" title="Pasillo Amenidades"/>
+      <hotspot url="{node9}" skinid="ht_node" tilt="1.39" target="" id="Terraza" description="" pan="-58.97" title="Terraza Bar"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="-0.84" target="" id="Camastros" description="" pan="-295.68" title="Camastros"/>
+      <hotspot url="{node8}" skinid="ht_node" tilt="-1.97" target="" id="Gym" description="" pan="-92.97" title="Gym"/>
+      <hotspot url="{node2}" skinid="ht_node" tilt="-4.17" target="" id="Juegos" description="" pan="-258.92" title="Juegos Niños"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node13">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="-70"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Pasillo Amenidades" info="" tags="Amenidades|iNTERIOR" copyright="" customnodeid="" datetime="19/01/2024 10:20 p.m." source="" longitude="" description="" author="" nodeid="node13" comment="" latitude="">
-      <mapcoords x="0.969543" y="-0.524597" x_floorplan_percent="58.8333" y_floorplan_percent="31.8333" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node13" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="19/01/2024 10:20 p.m." title="Pasillo Amenidades" source="" tags="Amenidades|iNTERIOR">
+      <mapcoords y_floorplan_percent="56.5089" x="0.969543" mapid="FloorPlan01" x_floorplan_percent="58.8333" y="-0.524597"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Terraza Bar" target="" skinid="ht_node" tilt="0.1" id="Terraza" url="{node9}" description="" pan="-42.86"/>
-      <hotspot title="Gym" target="" skinid="ht_node" tilt="-6.89" id="Gym" url="{node8}" description="" pan="-114.78"/>
-      <hotspot title="WiFi" target="" skinid="ht_node" tilt="-5.53" id="Wifi" url="{node7}" description="" pan="-223.88"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-7.68" id="Pasillo" url="{node12}" description="" pan="-268.54"/>
-      <hotspot title="Alberca" target="" skinid="ht_node" tilt="0.34" id="Alberca" url="{node11}" description="" pan="-305.32"/>
-      <hotspot title="Camastros" target="" skinid="ht_node" tilt="0.01" id="Camasrros" url="{node5}" description="" pan="-288.24"/>
-      <hotspot title="Juegos Niños" target="" skinid="ht_node" tilt="-1.76" id="Pasillo" url="{node2}" description="" pan="-265.02"/>
-      <hotspot title="Fire Pit" target="" skinid="ht_node" tilt="-1.33" id="FirePit" url="{node3}" description="" pan="-273.05"/>
-      <hotspot title="BBQ" target="" skinid="ht_node" tilt="-2.29" id="BBQ" url="{node6}" description="" pan="-258.41"/>
-      <hotspot title="Lobby" target="" skinid="ht_node" tilt="-1.98" id="Lobby" url="{node14}" description="" pan="-88.93"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node9}" skinid="ht_node" tilt="0.1" target="" id="Terraza" description="" pan="-42.86" title="Terraza Bar"/>
+      <hotspot url="{node8}" skinid="ht_node" tilt="-6.89" target="" id="Gym" description="" pan="-114.78" title="Gym"/>
+      <hotspot url="{node7}" skinid="ht_node" tilt="-5.53" target="" id="Wifi" description="" pan="-223.88" title="WiFi"/>
+      <hotspot url="{node12}" skinid="ht_node" tilt="-7.68" target="" id="Pasillo" description="" pan="-268.54" title="Pasillo Amenidades"/>
+      <hotspot url="{node11}" skinid="ht_node" tilt="0.34" target="" id="Alberca" description="" pan="-305.32" title="Alberca"/>
+      <hotspot url="{node5}" skinid="ht_node" tilt="0.01" target="" id="Camasrros" description="" pan="-288.24" title="Camastros"/>
+      <hotspot url="{node2}" skinid="ht_node" tilt="-1.76" target="" id="Pasillo" description="" pan="-265.02" title="Juegos Niños"/>
+      <hotspot url="{node3}" skinid="ht_node" tilt="-1.33" target="" id="FirePit" description="" pan="-273.05" title="Fire Pit"/>
+      <hotspot url="{node6}" skinid="ht_node" tilt="-2.29" target="" id="BBQ" description="" pan="-258.41" title="BBQ"/>
+      <hotspot url="{node14}" skinid="ht_node" tilt="-1.98" target="" id="Lobby" description="" pan="-88.93" title="Lobby"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node14">
-    <input levelbiashidpi="1.000" levelbias="0.400" levelingroll="0" width="1750" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1750" levelingpitch="0" leveltilesize="510" overlap="1">
-      <level predecode="0" preload="0" width="1750" height="1750"/>
-      <level predecode="0" preload="0" width="875" height="875"/>
-      <level predecode="1" preload="1" width="437" height="437"/>
+    <input levelingroll="0" width="1750" levelbiashidpi="1.000" height="1750" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="1750" height="1750" preload="0" predecode="0"/>
+      <level width="875" height="875" preload="0" predecode="0"/>
+      <level width="437" height="437" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
       <start fov="70" projection="4" tilt="0" pan="0"/>
       <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" pan="360"/>
+      <max fovstereographic="270" fov="120" tilt="90" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata title="Lobby" info="" tags="Amenidades|Exterior" copyright="" customnodeid="" datetime="23/01/2024 06:40 p.m." source="" longitude="" description="" author="" nodeid="node14" comment="" latitude="">
-      <mapcoords x="1.41174" y="-0.574036" x_floorplan_percent="85.6667" y_floorplan_percent="34.8333" mapid="FloorPlan01"/>
+    <userdata author="" nodeid="node14" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="23/01/2024 06:40 p.m." title="Lobby" source="" tags="Amenidades|Exterior">
+      <mapcoords y_floorplan_percent="61.8343" x="1.41174" mapid="FloorPlan01" x_floorplan_percent="85.6667" y="-0.574036"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label background="1" bordercolor="0x000000" enabled="1" borderalpha="1" width="180" textalpha="1" border="1" wordwrap="1" height="20" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot title="Pasillo Amenidades" target="" skinid="ht_node" tilt="-11.91" id="Pasillo" url="{node13}" description="" pan="-36.38"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" width="180" enabled="1" height="20" background="1" borderalpha="1" backgroundcolor="0xffffff" border="1" backgroundalpha="1" borderradius="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot url="{node13}" skinid="ht_node" tilt="-11.91" target="" id="Pasillo" description="" pan="-36.38" title="Pasillo Amenidades"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomin="0"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control simulatemass="1" invertwheel="0" invertcontrol="1" hideabout="0" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition blendtime="1" enabled="1" zoomspeed="2" zoomout="0" softedge="0" zoomfov="20" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" speedwheel="1" sensitivity="8" contextfullscreen="1" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" invertwheel="0" hideabout="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <masternode>
-    <userdata title="" info="" tags="" copyright="" customnodeid="" datetime="" source="" longitude="" description="" author="" nodeid="master" comment="" latitude=""/>
+    <userdata author="" nodeid="master" info="" copyright="" comment="" customnodeid="" description="" longitude="" latitude="" datetime="" title="" source="" tags=""/>
   </masternode>
-  <map title="" type="file" zoomlevels="3" transparent="1" tileformat="png" id="FloorPlan01" width="600" height="600" floorplannorth="0" bgcolor="rgba(255, 255, 255, 0)"/>
+  <map width="600" floorplannorth="0" height="338" tileformat="png" transparent="1" id="FloorPlan01" bgcolor="rgba(255, 255, 255, 0)" zoomlevels="3" title="" type="file"/>
 </tour>
